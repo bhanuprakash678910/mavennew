@@ -17,5 +17,13 @@
   </dependencies>
   <build>
     <finalName>mywebtest</finalName>
+    <pluginManagement>
+      <plugins>     
+        <plugin>
+          <artifactId>sonar-maven-plugin</artifactId>
+          <version> 3.9.1.2184 </version>
+        </plugin>        
+      </plugins>
+    </pluginManagement>
   </build>
 </project>
