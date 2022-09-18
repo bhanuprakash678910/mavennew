@@ -18,7 +18,12 @@
   <build>
     <finalName>mywebtest</finalName>
     <pluginManagement>
-      <plugins>     
+      <plugins>
+        <plugin>
+          <groupId>org.codehaus.sonar</groupId>
+          <artifactId>sonar-maven-plugin</artifactId>
+          <version>3.9</version>
+        </plugin>
         <plugin>
           <artifactId>sonar-maven-plugin</artifactId>
           <version> 3.9.1.2184 </version>
