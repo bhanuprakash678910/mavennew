@@ -30,5 +30,12 @@
         </plugin>        
       </plugins>
     </pluginManagement>
+    
   </build>
+  <properties>
+            <!-- Optional URL to server. Default value is http://localhost:9000 -->
+            <sonar.host.url>
+              http://54.173.70.200:9000
+            </sonar.host.url>
+  </properties>
 </project>
